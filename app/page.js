@@ -33,21 +33,22 @@ export default function Home() {
                 lottery experiences in Africa. ALS, powered by <b>CrowdAfrik</b>, brings
                 you exciting opportunities to test your luck and win big prizes.{" "}
               </p>
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div>
-                <a className="text-white mt-4 font-light  text-center px-8 py-4 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white  " href="/form"> Become an agent</a><br/>
+              <div className="grid grid-cols-1 lg:grid-cols-3 grid-flow-col gap-1">
+                <div className="col-span w-3/4 mt-16 lg:mt-5">
+                <a className="text-white mt-4 font-light  text-center px-6 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white  " href="/form"> Become an agent</a>
                 </div>
-                <div className="mt-16 lg:mt-0">
-                <a className="text-white mt-4 font-light  text-center px-8 py-4 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1Xin9r45H4UfZ-5m1wTl7t81bOF5S6OpG/view?usp=drive_link" target="_blank">Download ALS App (Android)</a>
+                <div className="col-span-1 mt-16 lg:mt-5">
+                <a className="text-white mt-4 font-light  text-center px-3 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1Xin9r45H4UfZ-5m1wTl7t81bOF5S6OpG/view?usp=drive_link" target="_blank">Download ALS App (Android)</a>
                 </div>
-                <div className="mt-16 lg:mt-16">
-                <a className=" m-5 mt-8" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
+                <div className="col-span-1 ml-10 lg:ml-10 mt-16 lg:mt-0">
+                <a className="" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
                   <Image
                     className=""
                     src={app_store}
                     alt="image"
                   />
                 </a>
+
                 </div>
               </div>
 

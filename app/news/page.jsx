@@ -3,10 +3,11 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import background from '../images/background.png';
 import team from '../images/team.png';
-import play_store from '../images/playstore.svg'
+import play_store from '../images/play_store.svg'
 import mobile from '../images/mobile.png';
 import ammachi from "../images/ammachi.svg";
 import { client } from "../lib/sanity";
+import app_store from '../images/appstore.svg';
 
 async function getNews() {
     const query = `
@@ -79,11 +80,18 @@ export default async function News() {
                 <h1 className="text-3xl lg:text-5xl text-white">
                     Download Out App and start <span className="textred-500">Playing Now</span> !
                 </h1>
-                <div className="mt-7">
-                    <a className="flex mt-8" href="#">
+                <div className="flex mt-7">
+                    <a className=" m-5 mt-8" href="https://drive.google.com/file/d/1Xin9r45H4UfZ-5m1wTl7t81bOF5S6OpG/view?usp=drive_link" target="_blank">
                         <Image
-                            className="max-w-ls w-44 lg:w-80 "
+                            className=""
                             src={play_store}
+                            alt="image"
+                        />
+                    </a>
+                    <a className=" m-5 mt-8" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
+                        <Image
+                            className=""
+                            src={app_store}
                             alt="image"
                         />
                     </a>

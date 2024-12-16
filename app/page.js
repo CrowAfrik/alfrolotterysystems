@@ -4,7 +4,7 @@ import image from "./images/banner.svg";
 import image3 from "./images/image2.svg";
 import Alsapp from "./images/alsapp.svg";
 import kiosk from "./images/kiosk.svg";
-
+import app_store from './images/appstore.svg'
 import Scratch from "./images/alscratch.svg";
 import Image from "next/image";
 import Navbar from "./components/navbar";
@@ -35,10 +35,19 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div>
-                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white mr-8 " href="/form"> Become an agent</a><br/>
+                <a className="text-white mt-4 font-light  text-center px-8 py-4 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white  " href="/form"> Become an agent</a><br/>
                 </div>
                 <div className="mt-16 lg:mt-0">
-                <a className="text-white mt-4 font-light  text-center px-8 py-4 border max-w-72 rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="">Download ALS App</a>
+                <a className="text-white mt-4 font-light  text-center px-8 py-4 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1Xin9r45H4UfZ-5m1wTl7t81bOF5S6OpG/view?usp=drive_link" target="_blank">Download ALS App (Android)</a>
+                </div>
+                <div className="mt-16 lg:mt-16">
+                <a className=" m-5 mt-8" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
+                  <Image
+                    className=""
+                    src={app_store}
+                    alt="image"
+                  />
+                </a>
                 </div>
               </div>
 

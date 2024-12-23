@@ -131,7 +131,7 @@ export default function About() {
 
               </div>
               <div className="flex mx-auto">
-                <a className=" m-5 mt-8" href="https://drive.google.com/file/d/1Xin9r45H4UfZ-5m1wTl7t81bOF5S6OpG/view?usp=drive_link" target="_blank">
+                <a className=" m-5 mt-8" href="https://drive.google.com/drive/folders/1WwUqjQxe1OzHB1Z7qBjTwYQdAYxOWlGx?usp=drive_link" target="_blank">
                   <Image
                     className=" "
                     src={play_store}

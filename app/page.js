@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="col-span-1 mt-16 lg:mt-5">
                 <a className="text-white mt-4 font-light  text-center px-3 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1rfDnAI5_if56YA5YWVjGHpL5iutcwqHk/view?usp=drive_link" target="_blank">Download ALS App (Android)</a>
                 </div>
-                <div className="col-span-1 ml-10 lg:ml-10 mt-16 lg:mt-0">
+                <div className="col-span-1 lg:ml-10 mt-16 lg:mt-0">
                 <a className="" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
                   <Image
                     className=""

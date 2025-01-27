@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <nav className="bg-transparent">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-8">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-4 md:px-8">
                 <a href="https://www.afrolottery.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                         className="w-28"

@@ -81,7 +81,7 @@ export default async function News() {
                     Download Out App and start <span className="textred-500">Playing Now</span> !
                 </h1>
                 <div className="flex mt-7">
-                    <a className=" m-5 mt-8" href="https://drive.google.com/file/d/1rfDnAI5_if56YA5YWVjGHpL5iutcwqHk/view?usp=drive_link" target="_blank">
+                    <a className=" m-5 mt-8" href="https://drive.google.com/file/d/1xv2v4WJZ6MUVndt5mRSQRq_GXKD-8Kni/view?usp=sharing" target="_blank">
                         <Image
                             className=""
                             src={play_store}

@@ -38,7 +38,7 @@ export default function Home() {
                 </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 mt-10 ">
                 <div className="col-span-1 mt-16 lg:mt-5">
-                <a className="text-white mt-4 font-light  text-center px-3 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1rkPzm_5NjQZf0iiFsrYiDIMnjGLTNmdB/view?usp=sharing" target="_blank">Download ALS App (Android)</a>
+                <a className="text-white mt-4 font-light  text-center px-3 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1rfDnAI5_if56YA5YWVjGHpL5iutcwqHk/view?usp=sharing" target="_blank">Download ALS App (Android)</a>
                 </div>
                 <div className="col-span-1 lg:ml-10 mt-16 lg:mt-0">
                 <a className="" href="https://apps.apple.com/us/app/afro-lottery-systems/id6478978244" target="_blank">
@@ -51,10 +51,10 @@ export default function Home() {
 
                 </div>
                 <div className="col-span-1 mt-16 ">
-                <a className="text-white mt-4 font-light  text-center px-9 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1ntEPJ5N2pszRsHdSJIjVhGaVoc1oCYi6/view?usp=sharing" target="_blank">ALS Management App</a>
+                <a className="text-white mt-4 font-light  text-center px-9 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1CnXdD8L6m5gPaPs7-Qvv8AQTVwl5FdFO/view?usp=drive_link" target="_blank">ALS Management App</a>
                 </div>
                 <div className="col-span-1 mt-16 lg:ml-10">
-                <a className="text-white mt-4 font-light  text-center px-16 md:px-12 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1JyjKKJU0owPZ1qbI1o0g2Mmq5vr1wFMA/view?usp=sharing" target="_blank">ALS Kiosk App</a>
+                <a className="text-white mt-4 font-light  text-center px-16 md:px-12 py-5 border  rounded-3xl border-white  hover:bg-red-800 hover:text-white " href="https://drive.google.com/file/d/1afyyEAMXyn_rsMoRf3faIIllszwqvPXw/view?usp=sharing" target="_blank">ALS Kiosk App</a>
                 </div>
               </div>
 
